@@ -10,3 +10,17 @@
     --softYellow: #fff5cc;
     --softRed: #ffcbc8;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
