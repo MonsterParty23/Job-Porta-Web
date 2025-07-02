@@ -48,3 +48,18 @@ body{
     flex-direction: column;
     gap: 2rem;
 }
+
+.menus a {
+    display: flex;
+    align-items: center;
+    color: var(--whiteColor);
+    text-decoration: none;
+}
+
+.menus ion-icon{
+    margin-right: 0.5rem;
+}
+
+.menus a:hover{
+    color: var(--secondaryColor);
+}
