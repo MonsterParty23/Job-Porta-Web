@@ -38,3 +38,13 @@ body{
     position: fixed;
     left: 0;
 }
+
+.logo{
+    letter-spacing: 2;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
