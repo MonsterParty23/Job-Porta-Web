@@ -130,3 +130,28 @@ body{
     position: relative;
     background-color: var(--whiteColor);
 }
+
+.search input{
+    width: 90%;
+    border: none;
+}
+
+.btn-search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 5%;
+    border: none;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.btn-search:hover{
+    background-color: var(--secondaryColor);
+    color: var(--fontColor);
+}
