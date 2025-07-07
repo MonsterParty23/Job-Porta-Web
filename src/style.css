@@ -175,3 +175,9 @@ body{
     background-color: var(--whiteColor);
     cursor: pointer;
 }
+
+.btn-filter:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
