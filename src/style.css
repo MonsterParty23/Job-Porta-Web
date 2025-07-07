@@ -155,3 +155,15 @@ body{
     background-color: var(--secondaryColor);
     color: var(--fontColor);
 }
+
+.filter-wrapper{
+    margin: 1rem 0;
+    font-size: 14px;
+}
+
+.filter{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    margin: 0.5rem;
+}
