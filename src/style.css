@@ -171,6 +171,7 @@ body{
 .btn-filter{
     min-width: 110px;
     padding: 0.5rem;
+    border: none;
     border-radius: 20px;
     background-color: var(--whiteColor);
     cursor: pointer;
@@ -180,4 +181,11 @@ body{
     background-color: var(--primaryColor);
     color: var(--whiteColor);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sort{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
 }
