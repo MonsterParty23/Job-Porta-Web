@@ -224,3 +224,18 @@ body{
     border: 10px;
     cursor: pointer;
 }
+
+.card-left{
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    border: 20%;
+}
+
+.card-left img{
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    padding: 1rem;
+}
