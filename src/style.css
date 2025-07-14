@@ -243,3 +243,17 @@ body{
     min-height: 60px;
     padding: 1rem;
 }
+
+.card-center{
+    width: 50%;
+}
+
+.card-loc, .card-sub{
+    font-size: 13px;
+    color: var(--darkGreyColor);
+}
+
+.card-sub {
+    display: flex;
+    flex-wrap: wrap;
+}
