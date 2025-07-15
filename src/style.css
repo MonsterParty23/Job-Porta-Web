@@ -263,3 +263,12 @@ body{
     padding: 0 0.5rem 0 0;
     align-items: center;
 }
+
+.card-right{
+    width: 15%;
+}
+
+.card-tag a{
+    color: var(--fontColor);
+    font-size: 13px;
+}
