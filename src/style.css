@@ -234,7 +234,7 @@ body{
     min-width: 50px;
     display: flex;
     justify-content: center;
-    border: 20%;
+    border-radius: 20%;
 }
 
 .card-left img{
@@ -271,4 +271,19 @@ body{
 .card-tag a{
     color: var(--fontColor);
     font-size: 13px;
+}
+
+.card-salary{
+    padding: 0.5rem 0;
+    color: var(--primaryColor);
+}
+
+.card-salary span{
+    color: var(--fontColor);
+    font-size: 13px;
+}
+
+.blue-bg{
+    background-color: var(--softBlue);
+
 }
