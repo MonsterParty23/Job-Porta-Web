@@ -287,3 +287,7 @@ body{
     background-color: var(--softBlue);
 
 }
+
+.yellow-bg{
+    background-color: var(--softYellow);
+}
