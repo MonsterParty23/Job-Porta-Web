@@ -334,3 +334,16 @@ body{
     border: none;
     margin: 1rem 0;
 }
+
+.detail-desc{
+    line-height: 1.5;
+}
+
+.about a{
+    margin: 0.5rem 0 0 0;
+    color: var(--primaryColor);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
