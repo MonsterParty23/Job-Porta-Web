@@ -299,3 +299,15 @@ body{
 .purple-bg{
     background-color: var(--softPurple);
 }
+
+.detail{
+    width: 25%;
+    min-width: 250px;
+    height: 100%;
+    padding: 2rem;
+    position: fixed;
+    right: 0;
+    background-color: var(--whiteColor);
+    overflow: auto;
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+}
