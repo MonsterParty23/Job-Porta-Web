@@ -291,3 +291,11 @@ body{
 .yellow-bg{
     background-color: var(--softYellow);
 }
+
+.red-bg{
+    background-color: var(--softRed);
+}
+
+.purple-bg{
+    background-color: var(--softPurple);
+}
