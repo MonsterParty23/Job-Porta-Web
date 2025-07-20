@@ -382,3 +382,13 @@ body{
     border: 1px solid var(--softGreen);
     background-color: transparent;
 }
+
+@media screen and (max-width:880px){
+    .menu-bar{
+        display: block;
+    }
+
+    .sidebar{
+        display: none;
+    }
+}
