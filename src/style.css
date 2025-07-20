@@ -9,6 +9,7 @@
     --softBlue: #c3e1ff;
     --softYellow: #fff5cc;
     --softRed: #ffcbc8;
+    --softGreen: #3eb84c;
 }
 
 *{
@@ -346,4 +347,38 @@ body{
     text-decoration: none;
     font-weight: 600;
     cursor: pointer;
+}
+
+.detai-btn{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.btn-apply{
+   background-color: var(--primaryColor);
+   color: var(--whiteColor);
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.btn-save{
+    background-color: var(--softGreen);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-apply:hover{
+    border: 1px solid var(--primaryColor);
+    background-color: transparent;
+    color: var(--primaryColor);
+}
+
+.btn-save:hover{
+    border: 1px solid var(--softGreen);
+    background-color: transparent;
 }
